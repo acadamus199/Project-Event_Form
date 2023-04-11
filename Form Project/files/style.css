@@ -1,0 +1,158 @@
+@keyframes anim{
+0%{opacity: 1.0;
+border: 4px outset #e0b3ff;}
+25%{opacity: 0.8;
+border: 4px outset #c266ff;}
+50%{opacity: 0.6;
+border: 4px outset #9900ff;}
+75%{opacity: 0.8;
+border: 4px outset #c266ff;}
+100%{opacity: 1.0;
+border: 4px outset #e0b3ff;}
+}
+@keyframes bieg{
+0%{border: 4px outset #e0b3ff; transform: translateY(0%);}
+25%{border: 4px outset #c266ff; transform: translateY(-15%) translateX(15%);}
+50%{border: 4px outset #9900ff; transform: translateY(0%);}
+75%{border: 4px outset #c266ff; transform: translateY(-15%) translateX(-15%);}
+100%{border: 4px outset #e0b3ff; transform: translateY(0%);}
+}
+#party1{
+background-position: absolute;
+border: 3px outset #c266ff;
+height: 500px;
+width: 400px;
+float: left;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+#party2{
+background-position: absolute;
+border: 3px outset #c266ff;
+height: 500px;
+width: 400px;
+float: right;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+#partyS{
+background-position: absolute;
+height: 500px;
+width: 700px;
+float: left;
+margin-left: 10%;
+margin-top: 6%;
+margin-bottom: 2%;
+}
+#partyS{
+background-position: absolute;
+border: 2px solid black;
+height: 500px;
+width: 700px;
+float: left;
+margin-left: 10%;
+margin-top: 6%;
+margin-bottom: 2%;
+animation-name: bieg;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+#lol{
+background-color: white;
+border-radius: 20pt;
+}
+#lol2{
+background-color: white;
+border-radius: 20pt;
+}
+table{
+border: 2px solid black;
+background-color: white;
+background-image: url('bg.jpg');
+border-radius: 10pt;
+text-align: center;
+margin-top: 2%;
+}
+h1{
+font-family: comic sans ms, arial;
+}
+.podstawa{
+font-size: 20pt;
+font-family: arial;
+margin: 5pt;
+}
+.podstawa2{
+font-size: 10pt;
+font-family: arial;
+margin: 5pt;
+}
+.wrong{
+font-size: 20pt;
+font-family: arial;
+margin: 5pt;
+background-color: #ffb3b3;
+border: 2px solid red;
+outline: red;
+}
+.wrong2{
+font-size: 10pt;
+font-family: arial;
+margin: 5pt;
+background-color: #ffb3b3;
+border: 2px solid red;
+outline: red;
+}
+#Formularz{
+display: none;
+}
+#przycisk{
+font-size: 20pt;
+background-color: #003cb3;
+border: 2px solid #0000b3;
+color: #33d6ff;
+}
+#przycisk:hover{
+font-size: 20pt;
+border: 2px solid #0000b3;
+color: #33d6ff;
+animation-name: anim;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+}
+body{
+background-color: #1a66ff;
+}
+#h1{
+font-size: 50pt;
+font-family: arial;
+margin-top: 5pt; 
+}
+#FormH{
+background-color: white;
+border-radius: 20pt;
+}
+#h3{
+font-size: 25pt;
+font-family: comic sans ms;
+margin-top: -20pt; 
+}
+#back{
+background-image: url('osoby.jpg');
+background-position: 20% 220%;
+background-attachment: fixed;
+padding: 3%;
+margin: -6pt; 
+}
+#op{
+background: rgba(255, 255, 255, 0.5);
+margin-top: -2%;
+margin-left: 30%;
+margin-right: 30%;
+border: 2px solid white;
+border-radius: 10pt;
+}
+#jedHR{
+border: 4px solid #00bfff;
+margin-left: 4pt; 
+background-color: #00bfff;
+}

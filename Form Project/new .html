@@ -1,0 +1,34 @@
+<!DOCTYPEHTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<script>
+//var t = [];
+//for(let i=0; i<=10; i++)
+//{
+//t[i] = prompt();
+//document.write(t[i]+" ");
+//}
+var t =["Poznań", "Wrocław", "Kraków", "Poznań", "Warszawa", "Łódź", "Lubkin", "Opole", "Poznań","Kraków"];
+for(let i=0; i<t.length; i++)
+{
+if(t[i]!=="")
+for(let a=i+1; a<t.length; a++)
+	{
+	if(t[i]==t[a])
+	t[a]=" ";
+	}
+}
+var licznik=0;
+for(let i=0; i<t.length; i++)
+{
+if(t[i]!="")
+licznik++;
+}
+document.write(licznik + "<br>");
+</script>
+</head>
+<body>
+
+</body>
+</html>

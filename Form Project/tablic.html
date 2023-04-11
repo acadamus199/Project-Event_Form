@@ -1,0 +1,37 @@
+<!DOCTYPEHTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<script>
+//var t = [];
+//for(let i=0; i<=10; i++)
+//{
+//t[i] = prompt();
+//document.write(t[i]+" ");
+//}
+var licznik = 0;
+var t2 = [];
+var t = [1,2,3,4,5,6,4,8,3,5];
+for(let i=0; i<t.length; i++)
+{
+var flaga = false;
+for(let j=0; j<t2.length; j++)
+{
+if(t[i]==t2[j]) flaga = true;
+}
+	if(flaga==false)
+	{
+	t2[licznik] = t[i];
+	licznik++;
+	}
+}
+for(let i=0; i<t2.length; i++)
+{
+document.write(t2[i] + "<br>")
+}
+</script>
+</head>
+<body>
+
+</body>
+</html>
